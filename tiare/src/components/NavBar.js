@@ -5,7 +5,7 @@ import logo from '../assets/images/logo-letra-negra.png'
 import Inicio from './Inicio';
 import Products from './Products';
 import Usuarios from './Usuarios';
-
+import QuienesSomos from './QuienesSomos';
 
 import { Link, Route, Routes } from 'react-router-dom';
 
@@ -20,6 +20,7 @@ function NavBar() {
                 <li><Link to='/'>INICIO</Link></li>
                 <li><Link to='/products'>PRODUCTOS</Link> </li>
                 <li><Link to='/users'> USUARIOS</Link> </li>
+                <li><Link to='/nosotros'> QUIENES SOMOS</Link> </li>
             </ul>
         </nav>
 
@@ -27,6 +28,7 @@ function NavBar() {
             <Route path='/' element={<Inicio />} /> 
             <Route path='/products' element={<Products />} />
             <Route path='/users' element={<Usuarios />} />
+            <Route path='/nosotros' element={<QuienesSomos />} />
         </Routes>
 
                     {/* <ul>

@@ -1,17 +1,11 @@
 
-import Footer from "./footer";
-function Inicio(){
+
+function Inicio() {
     return(
-        <div>
-
-            <button>productos</button>
-            <button>CATEGORIAS</button>
-            <button>USUARIOS</button>
-            <footer>
-                <Footer />
-            </footer>
-        </div>
-    )
-}
-
+    
+<h1>este es el inicio</h1>
+       
+   
+    )    
+};
 export default Inicio;

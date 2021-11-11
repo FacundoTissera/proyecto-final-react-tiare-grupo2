@@ -1,8 +1,12 @@
 function Footer(){
     return(
-        <div>
-                <h2>Este es el footer... powered by @hanoii</h2>
-        </div>
+            <footer className="sticky-footer bg-white">
+                <div className="container my-auto">
+                    <div className="copyright text-center my-auto">
+                    <span>Copyright &copy; Powered by @hanoii</span>
+                    </div>
+                </div>
+                </footer>
     )
 };
 

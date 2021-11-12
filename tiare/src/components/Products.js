@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../NavBar.css'
 import UltimoProducto from './UltimoProducto'
+import ResumenProductos from './ResumenProductos'
 class  Products extends Component{
     constructor(){
         super()
@@ -15,7 +16,7 @@ class  Products extends Component{
             return response.json()
         })
         .then(productos=>{
-            console.log (productos.data)
+            // console.log (productos.data)
             this.setState({
                 productos:productos.data.products})
         })
@@ -24,7 +25,10 @@ class  Products extends Component{
     render(){
         return(
             <div>  
-                <UltimoProducto />
+                <div className="resumen">
+                    <UltimoProducto />
+                    <ResumenProductos />
+                </div>
                 <main className= "listado-productos" >  
                     <article className="listado-edit">
                         <table className="tabla">

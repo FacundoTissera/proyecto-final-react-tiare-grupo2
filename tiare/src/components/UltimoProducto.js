@@ -33,7 +33,7 @@ class UltimoProducto extends Component{
                                 <img className="foto-producto" src={this.state.ultimo.image} alt="Foto" /> 
                             </div>
                             <div className="precios">
-                                <p> {this.state.ultimo.price}</p>
+                                <p> $ {this.state.ultimo.price}</p>
                             </div>
                     </div>      
                 </article>

@@ -58,7 +58,7 @@ class ListadoProductsIndex extends Component{
                             </div>
                             <div className="precios">
                             
-                            <p> {producto.price}</p>
+                            <p>$ {producto.price}</p>
                             </div>
                             <div className="loQuiero">
                             <p>LO QUIERO!</p>

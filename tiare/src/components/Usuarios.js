@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ResumenUsuarios from './ResumenUsuarios';
 class  Usuarios extends Component{
     constructor(){
         super()
@@ -21,6 +22,7 @@ class  Usuarios extends Component{
     render(){
         return(
             <div>  
+                <ResumenUsuarios />
                 <main className= "listado-productos" >  
                     <article className="listado-edit">
                         <table className="tabla">

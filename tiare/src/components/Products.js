@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../NavBar.css'
+import UltimoProducto from './UltimoProducto'
 class  Products extends Component{
     constructor(){
         super()
@@ -23,6 +24,7 @@ class  Products extends Component{
     render(){
         return(
             <div>  
+                <UltimoProducto />
                 <main className= "listado-productos" >  
                     <article className="listado-edit">
                         <table className="tabla">

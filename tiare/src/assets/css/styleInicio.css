@@ -723,7 +723,9 @@ header{
     font-size: 11px;
 }
 
-
+.sticky-footer{
+    margin-top: 25px;
+}
 /*--INDEX--*/
     .productos-sugeridos article{
         width:50%
@@ -806,7 +808,7 @@ header{
         color: #5E5236;
         cursor: pointer;
         padding: 15px;
-        font-size: 1.5em;
+        font-size: 14px;
     }
     .loQuiero:active{
         background-color: #9D766F;
@@ -934,5 +936,6 @@ header{
         padding:50px;
         
     }
+   
 }
 /*MEDIASQUERIS/*/

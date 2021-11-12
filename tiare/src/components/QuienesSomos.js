@@ -3,6 +3,7 @@ import fotoBea from '../assets/images/bea2021.png'
 import fotoFacu from '../assets/images/facu2021.png'
 import fotoLucas from '../assets/images/lucas2021.png'
 
+
 let bea ={
             alias:"Bea",
             nombre: "Beatriz Hambeck",

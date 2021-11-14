@@ -31,7 +31,7 @@ class ResumenProductos extends Component{
                 <article className="articulos-linea1 "> 
                      <div className="articulos-index">
                         <h3>Total Productos: {this.state.resumen.count}</h3>
-                        <h3>Total Categorías: {this.state.categories.length}</h3>
+                        <h3>Total Categorías: {Object.keys(this.state.categories).length}</h3>
                             <div className="descripciones">  
                                 <p> {Object.keys(this.state.categories).sort().map((categoria, i) => {
                                     return (<div>{categoria}: {this.state.categories[categoria]}</div> )            

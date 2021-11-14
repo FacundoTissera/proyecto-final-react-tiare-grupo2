@@ -24,7 +24,7 @@ class UltimoProducto extends Component{
         return(
             <seccion className="secciones-articulos">
                 <article className="articulos-linea1"> 
-                     <div className="articulos-index">
+                     <div className="articulos-productoReact">
                         <h3>Ultimo producto</h3>
                             <div className="descripciones">
                                 <p> {this.state.ultimo.name}</p>

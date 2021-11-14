@@ -8,6 +8,7 @@ import NavBar from './components/NavBar';
 import logo from './assets/images/logo-letra-negra.png';
 import {Route, Routes} from 'react-router-dom';
 
+
 function App() {
   return (
     <div className="App">

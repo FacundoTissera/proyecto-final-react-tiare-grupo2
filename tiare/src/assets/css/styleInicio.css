@@ -541,13 +541,7 @@ div .eleccion-producto{
     justify-content: center;
     margin-top: 15px;
 }
-table{
-    table-layout: fixed;
-    /* display: flex; */
-    justify-content: center;
-    margin: 3% 10%;
-    border-collapse: collapse;
-}
+
 tbody td{
     border-style: solid;
     border-color:#d0aea8;

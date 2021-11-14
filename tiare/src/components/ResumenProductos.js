@@ -25,6 +25,8 @@ class ResumenProductos extends Component{
     }
     render(){
         return(
+            <div>
+
             <seccion className="secciones-articulos">
                 <article className="articulos-linea1 "> 
                      <div className="articulos-index">
@@ -34,11 +36,12 @@ class ResumenProductos extends Component{
                                 <p> {Object.keys(this.state.categories).sort().map((categoria, i) => {
                                     return (<div>{categoria}: {this.state.categories[categoria]}</div> )            
                                 })
-                                }</p>
+                            }</p>
                             </div>                         
                     </div>      
                 </article>
             </seccion>
+        </div>
         )       
                  
     }

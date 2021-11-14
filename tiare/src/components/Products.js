@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import "../navBar.css";
+import "../NavBar.css";
 
 import UltimoProducto from "./UltimoProducto";
 import ResumenProductos from "./ResumenProductos";

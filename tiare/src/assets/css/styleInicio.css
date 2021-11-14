@@ -42,7 +42,7 @@ ul{
     padding: 0px;
     margin-top: 0px;
 }
-a{
+.boton-quiero{
     text-align: center;
     text-decoration: none;
     color:#5E5236;
@@ -136,7 +136,10 @@ article{
     margin-top: 10px;
     width: 100%;
 }
+.buton-quiero{
 
+    display: contents;
+} 
 .loQuiero{
     display: none;
 }

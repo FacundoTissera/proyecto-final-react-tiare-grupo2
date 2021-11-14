@@ -99,7 +99,7 @@ class ListadoProductsIndex extends Component {
                       <p> $ {producto.price}</p>
                     </div>
                     <div className="loQuiero">
-                      <p>LO QUIERO!</p>
+                      <p className="buton-quiero">LO QUIERO!</p>
                     </div>
                   </div>
                 ) : null;

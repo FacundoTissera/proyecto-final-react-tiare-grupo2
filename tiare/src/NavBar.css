@@ -204,6 +204,23 @@ textarea {
   justify-content: center;
   margin-top: 60px;
 }
+.articulos-productoReact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.articulos-productoReact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 75%;
+    background: linear-gradient(to bottom,white 6%, #ebc6be);
+    box-shadow: 1px -1px 10px 0px rgb(100 100 100);
+}
+
 
 .tabla {
   margin: 3%;

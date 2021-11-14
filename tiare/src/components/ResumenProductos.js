@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import UltimoProducto from './UltimoProducto';
 class ResumenProductos extends Component{
     constructor(){
         super()
@@ -27,8 +27,9 @@ class ResumenProductos extends Component{
         return(
             <div>
 
-            <seccion className="secciones-articulos">
+            <section className="secciones-articulos">
                 <article className="articulos-linea1 "> 
+                <UltimoProducto />
                      <div className="articulos-index">
                         <h3>Total Productos: {this.state.resumen.count}</h3>
                         <h3>Total Categorías: {Object.keys(this.state.categories).length}</h3>
@@ -40,7 +41,7 @@ class ResumenProductos extends Component{
                             </div>                         
                     </div>      
                 </article>
-            </seccion>
+            </section>
         </div>
         )       
                  
